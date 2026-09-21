@@ -42,9 +42,9 @@ body {
 }
 
 
-li {list-style: none; float: left; background: #ffffff;}
-li + li {border-left: 1px solid;}
-a { background: #ffffff; display: block; padding: .5em 1em;}
+li {list-style: none; float: right; background: #ffffff;}
+li + li {border-right: 1px solid;}
+a { background: #ffffff; display: block; padding: .5em 5em;}
 
 
     header {
