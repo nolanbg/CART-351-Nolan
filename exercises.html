@@ -23,10 +23,424 @@
 </nav>
 <br>
 <h2>Exercise 1</h2>
-<p></p>
+<p>
+#<br>
+# CART 351 EXERCISE ONE<br>
+#<br>
+# This exercise is also a Python program. Your task is to read the <br>
+# task descriptions below and then write one or more Python statements to<br>
+# carry out the tasks. There's a Python "print" statement before each<br>
+# task that will display the expected output for that task; you can use<br>
+# this to ensure that your statements are correct.<br>
+#<br>
+<br>
+print("------")
+print("Task 1: Arithmetic expressions")<br>
+#print("Expected output: 7")<br>
+<br>
+# Task 1: Add parentheses to the Python statement below so that it prints<br>
+# out the number 7.<br>
+<br>
+#print(10 + 4 / 2)<br>
+print((10 + 4) / 2)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 2: Expressions of inequality")<br>
+#print("Expected output: True")<br>
+<br>
+# Task 2: Change the operator in the statement below so that it displays<br>
+# "True" instead of "False."<br>
+<br>
+#print(14 > 15)<br>
+print(14 < 15)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 3: Variable assignment")<br>
+#print("Expected output: 54")<br>
+<br>
+# Task 3: Change the variable assignment below so that the print statement<br>
+# displays "54." (Don't change the print statement!)<br>
+<br>
+#a_num_variable = 17<br>
+#print(a_num_variable)<br>
+a_num_variable = 54<br>
+print(a_num_variable)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 4: Types")<br>
+#print("Expected output: ")<br>
+<br>
+# Task 4: Three variables are assigned below, all with different types.<br>
+# Replace the word "None" inside the parentheses of type() in the print<br>
+# statement below so that it prints "".<br>
+<br>
+#x = 14<br>
+#y = 17.4<br>
+#z = "today is a fine day for sailing!"<br>
+#print(type(None))<br>
+<br>
+x = 14<br>
+y = 17.4<br>
+z = "today is a fine day for sailing!"<br>
+print(type(z))<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+<br>
+<br>
+print("\n------")<br>
+print("Task 5: Questions about strings")<br>
+#print("Expected output: 51")<br>
+<br>
+# Task 5: Inside the call to "print" below, write an expression that evaluates<br>
+# to the sum of the lengths of the two string variables defined below<br>
+# (first_line and second_line). Use the len() function.<br>
+<br>
+#first_line = "It was the best of times."<br>
+#second_line = "It was the worst of times."<br>
+#print() # your code here!<br>
+<br>
+first_line = "It was the best of times."<br>
+second_line = "It was the worst of times."<br>
+print(len(first_line) + len(second_line))  # your code here!<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+<br>
+print("\n------")<br>
+print("Task 6: Questions about strings, part 2")<br>
+#print("Expected output: 25")<br>
+<br>
+# Task 6: Inside the call to "print" below, write an expression that evaluates<br>
+# to the position of the word "window" in the string defined in the variable<br>
+# called "aStringSentence." Use the .find() method.<br>
+<br>
+#aStringSentence = "Did the cat jump out the window yesterday?"<br>
+#print() # your code here!<br>
+<br>
+aStringSentence = "Did the cat jump out the window yesterday?"<br>
+print(aStringSentence.find("window"))  # your code here!<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 7: String transformations")<br>
+#print("Expected output: someone who has spent too much time")<br>
+<br>
+# Task 7: Modify the print statement below so that it prints out the contents<br>
+# of the variable "partLy", but with all white space removed from<br>
+# the beginning and end of the string. Use the .strip() method.<br>
+<br>
+#partLy = "     someone who has spent too much time    \n"<br>
+#print(partLy)<br>
+<br>
+partLy = "     someone who has spent too much time    \n"<br>
+print(partLy.strip())<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 8: String transformations, part 2")<br>
+#print("Expected output: SOMEONE WHO HAS SPENT TOO MUCH TIME")<br>
+<br>
+# Task 8: Using the previously defined "partLy" variable, write an<br>
+# expression inside the "print" function below that evaluates to the content of<br>
+# the string, with all whitespace removed, and with all letters converted to<br>
+# uppercase. Use the .upper() method.<br>
+<br>
+#print() # your code here!<br>
+<br>
+print(partLy.strip().upper())<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 9: String indexing")<br>
+#print("Expected output: p")<br>
+<br>
+# Task 9: Modify the value assigned to variable "offset" below so that<br>
+# the following "print" statement displays the letter "p".<br>
+<br>
+#offset = 0<br>
+#print("apple"[offset])<br>
+<br>
+offset = 1<br>
+print("apple"[offset])<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 10: String slices")<br>
+#print("Expected output: jump")<br>
+<br>
+# Task 10: Modify the values assigned to variables "start" and "end"<br>
+# below so that the following "print" statement displays the word "jump".<br>
+<br>
+#start = 0<br>
+#end = 10<br>
+#aStringSentenceAgain = "Did the cat jump out the window yesterday?"<br>
+#print(aStringSentenceAgain[start:end])<br>
+<br>
+start = 12<br>
+end = 16<br>
+aStringSentenceAgain = "Did the cat jump out the window yesterday?"<br>
+print(aStringSentenceAgain[start:end])<br>
+<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 11: Integers and strings")<br>
+#print("Expected output: 100")<br>
+<br>
+# Task 11: Modify the statement below so that it displays the number 100.<br>
+# Do this using the int() function (hint: you need to use it twice).<br>
+<br>
+#print("19" + "81")<br>
+print(int("19") + int("81"))<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 12: Conditions")<br>
+#print("Expected output: test_var is less than 200")<br>
+<br>
+# Task 12: Modify the code below to include a condition to print the statement  <br>
+# 'test_var is less than 200' for the current value of test_var. <br>
+# Do not change the intial code, rather add to it<br>
+#test_var = 90<br>
+#if test_var > 200:	
+#	print("test_var is greater than 200!")<br>
+test_var = 90<br>
+if test_var > 200:	<br>
+	print("test_var is greater than 200!")<br>
+else:<br>
+    print("test_var is less than 200")<br>
+#------------------------------------------------------------------------<br>
+<br>
+<br>
+print("\n------")<br>
+print("Task 13: Conditions II")<br>
+#print("Expected output: the condition test passed")<br>
+<br>
+# Task 13: Modify the if statement below to print the statement<br>
+# 'the condition test passed'. Do not change the values of the varaibles.<br>
+#test_var_three = 400<br>
+#test_var_two = 800<br>
+#if test_var_three > 200 and test_var_two < 400:<br>	
+#	print("the condition test passed")<br>
+#else:<br>
+#	print("the condition test not passed")<br>
+ <br>
+test_var_three = 400<br>
+test_var_two = 800<br>
+if test_var_three > 200 and test_var_two > 400:	<br>
+	print("the condition test passed")<br>
+else:<br>
+	print("the condition test not passed")<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 14: List indexes")<br>
+#print("Expected output: alpha")<br>
+<br>
+# Task 14: A variable "greek" is defined below. The value of this variable<br>
+# is of type list. Change the expression below the variable definition so<br>
+# that it prints "alpha" (instead of "beta").<br>
+<br>
+#greek = ["alpha", "beta", "gamma", "delta", "epsilon"]<br>
+#print(greek[1])<br>
+<br>
+greek = ["alpha", "beta", "gamma", "delta", "epsilon"]<br>
+print(greek[0])<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 15: List slices")<br>
+#print("Expected output: ['beta', 'gamma', 'delta']")<br>
+<br>
+# Task 15: Change the values of the variables "start" and "finish" below so that<br>
+# the print statement displays the second through fourth items in the list<br>
+# "greek" (defined above).<br>
+<br>
+#start = 0<br>
+#finish = 6<br>
+#print(greek[start:finish])<br>
+<br>
+start = 1<br>
+finish = 4<br>
+print(greek[start:finish])<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 16: List slices, part 2")<br>
+#print("Expected output: ['delta', 'epsilon']")<br>
+<br>
+# Task 16: Change the value of the variable "foo" below so that the print<br>
+# statement displays the last two members of the list "greek" (defined above).<br>
+# Use a negative number for "foo".<br>
+<br>
+#foo = 0<br>
+#print(greek[foo:])<br>
+<br>
+foo = -2<br>
+print(greek[foo:])<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 17: List operations")<br>
+#print("Expected output: True")<br>
+<br>
+# Task 17: Change the value of the variable "letter_to_look_for' below so<br>
+# that the print statement displays "True."<br>
+<br>
+#vegetables= ["aubergines", "carrots", "turnips", "fiddleheads", "artichokes"]<br>
+#word_to_look_for = "carret"<br>
+#print(word_to_look_for in vegetables)<br>
+<br>
+vegetables= ["aubergines", "carrots", "turnips", "fiddleheads", "artichokes"]<br>
+word_to_look_for = "aubergines"
+print(word_to_look_for in vegetables)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 18: List operations, part 2")<br>
+#print("Expected output: ['artichokes', 'aubergines', 'carrots', 'fiddleheads', 'turnips']")<br>
+<br>
+# Task 18: Change the expression below so that the print statement displays<br>
+# the list "vegetables" (defined above) in alphabetical order. (Use the "sort"<br>
+# function.<br>
+<br>
+#print(vegetables)<br>
+<br>
+vegetables.sort()<br>
+print(vegetables)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 19: Modifying lists")<br>
+#print("Expected output: ['artichokes', 'aubergines', 'carrots', 'fiddleheads', 'turnips','radishes']")<br>
+<br>
+# Task 19: Write a Python statement that adds a new item, "radishes", to the<br>
+# list "vegetables" (defined above). The print statement should display the updated<br>
+# list.<br>
+<br>
+# write your statement here<br>
+vegetables.append("radishes")<br>
+#print(vegetables)<br>
+print(vegetables)<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+<br>
+print("\n------")<br>
+print("Task 20: Loops")<br>
+#print("Expected output:")<br>
+#print("  artichokes")<br>
+#print("  aubergines")<br>
+#print("  carrots")<br>
+#print("  fiddleheads")<br>
+#print("  turnips")<br>
+#print("  radishes")<br>
+<br>
+# Task 20: Write a "for" loop below that prints out each item in the list<br>
+# "vegetables" (defined above). (The list should contain the item that you<br>
+# added to the list in task 17.)<br>
+<br>
+<br>
+for vegetable in vegetables:<br>
+    print(" ", vegetable)<br>
+#------------------------------------------------------------------------<br>
+
+print("\n------")<br>
+print("Task 21: Loops, part 2")<br>
+#print("Expected output:")<br>
+#print("  Artichokes")<br>
+#print("  Aubergines")<br>
+#print("  Carrots")<br>
+#print("  Fiddleheads")<br>
+#print("  Turnips")<br>
+#print("  Radishes")<br>
+<br>
+<br>
+# Task 21: Write a "for" loop below that prints out each item in the list<br>
+# "vegetables" (defined above), but with the first letter of each item capitalized.<br>
+# (The list should contain the item that you added to the list in task 17.)<br>
+for vegetable in vegetables:<br>
+    print(" ", vegetable.capitalize())<br>
+    <br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 22: Split and join")<br>
+#print("Expected output:")<br>
+#print("  25")<br>
+#print("  9-18-25")<br>
+<br>
+# Task 22: Modify the variable "separator" below so that the first print<br>
+# statement displays "25". Modify the variable "glue" so that the second print<br>
+# statement displays "9-18-25".<br>
+<br>
+<br>
+#separator = "?"<br>
+#glue = "?"<br>
+#parts = "9/18/25".split(separator)<br>
+#print(parts[-1])<br>
+#print(glue.join(parts))<br>
+<br>
+separator = "/"<br>
+glue = "-"<br>
+parts = "9/18/25".split(separator)<br>
+print(parts[-1])<br>
+print(glue.join(parts))<br>
+<br>
+#------------------------------------------------------------------------<br>
+<br>
+print("\n------")<br>
+print("Task 23: All together now")<br>
+#print("Expected output: alpha, beta, gamma, delta, epsilon, zeta, eta, theta")<br>
+<br>
+# Task 23: Make three changes on the Python code below, as follows: (1) replace<br>
+# [] with an expression that evaluates to a list with two items, "eta" and<br>
+# "theta" (using the .split() method). (2) Replace the word "pass" with a<br>
+# Python statement, so that the "for" loop has the effect of adding two new<br>
+# items to the list "greek" - recall it was defined above - but we redefine it below:). <br>
+# (Use the .append() method.) (3) Change the value<br>
+# of the variable "glue" so that the desired output is displayed.<br>
+<br>
+#greek = ["alpha", "beta", "gamma", "delta", "epsilon","zeta"]<br>
+#new_letters = "eta theta"<br>
+#new_letters_list = [] # <-- replace this<br>
+<br>
+#for letter_name in new_letters_list:<br>
+#	pass # <-- and replace this<br>
+<br>
+#glue = "?" # <-- and replace this<br>
+<br>
+#print(glue.join(greek))<br>
+<br>
+greek = ["alpha", "beta", "gamma", "delta", "epsilon","zeta"]<br>
+new_letters = "eta theta"<br>
+new_letters_list = new_letters.split() # <-- replace this<br>
+<br>
+for letter_name in new_letters_list:<br>
+	greek.append(letter_name)<br>
+<br>
+glue = ", " # <-- and replace this<br>
+<br>
+print(glue.join(greek))<br>
+</p>
     <!-- Link your external JavaScript file here -->
     <script src="script.js"></script>
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-     <py-script src="CART-351-Nolan\exercises\python101\hello-exercise1.py"></py-script>
 </body>
 </html>
