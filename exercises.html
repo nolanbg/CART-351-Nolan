@@ -440,7 +440,61 @@ glue = ", " # <-- and replace this<br>
 <br>
 print(glue.join(greek))<br>
 </p>
-    <!-- Link your external JavaScript file here -->
+<br><h2>Exercise 1(Part B)</h2>
+<br>import requests
+<br>from rich.console import Console
+<br>from rich.table import Table
+<br>
+<br>
+<br>def fetch_and_display_planets():
+<br>    console = Console()
+<br>
+<br>    # 1. Fetch planet data from the Star Wars API
+<br>    url = "https://swapi.dev/api/planets/"
+<br>    console.print(
+<br>        "[yellow]Fetching planet data from SWAPI... Please wait.[/yellow]"
+<br>    )
+<br>
+<br>    try:
+<br>        response = requests.get(url)
+<br>        response.raise_for_status()
+<br>        data = response.json()
+<br>        planets = data.get("results", [])
+<br>    except Exception as e:
+<br>        console.print(f"[red]Error fetching data from API: {e}[/red]")
+<br>        return
+<br>
+<br>    # 2. Initialize Table
+<br>    table = Table(
+<br>        title="🌌 Star Wars Planets", title_style="bold magenta", border_style="cyan"
+<br>    )
+<br>
+<br>    # Add column headers
+<br>    table.add_column("Planet Name", style="bold green", justify="left")
+<br>    table.add_column("Diameter (km)", style="blue", justify="right")
+<br>    table.add_column("Population", style="magenta", justify="right")
+<br>
+<br>    # 3. Populate the table rows
+<br>    for planet in planets:
+<br>        name = planet.get("name", "Unknown")
+<br>        diameter = planet.get("diameter", "Unknown")
+<br>        population = planet.get("population", "Unknown")
+<br>
+<br>        # Format large numbers for population and diameter if they are numeric
+<br>        if diameter.isdigit():
+<br>            diameter = f"{int(diameter):,}"
+<br>        if population.isdigit():
+<br>            population = f"{int(population):,}"
+<br>
+<br>        table.add_row(name, diameter, population)
+<br>
+<br>    # 4. Print the completed table to the console
+<br>    console.print(table)
+<br>
+<br>
+<br>if __name__ == "__main__":
+<br>    fetch_and_display_planets()
+<br>    <!-- Link your external JavaScript file here -->
     <script src="script.js"></script>
 </body>
 </html>
