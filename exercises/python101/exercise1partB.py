@@ -23,7 +23,7 @@ def fetch_and_display_planets():
 
     # 2. Initialize Table
     table = Table(
-        title="🌌 Star Wars Planets", title_style="bold magenta", border_style="cyan"
+        title=" Star Wars Planets", title_style="bold magenta", border_style="cyan"
     )
 
     # Add column headers
