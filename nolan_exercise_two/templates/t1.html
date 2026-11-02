@@ -1,0 +1,27 @@
+
+<!-- will be a child of base-->
+{% extends "base.html" %}
+{% block content %}
+<section>
+<div>
+<!-- GET request: the input's name ("search") is what request.args reads -->
+  <form class="search-form" action="{{ url_for('getSearchCriteria') }}" method="GET">
+    <input type="text" name="search" placeholder="e.g. apollo 11, nebula, mars rover" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Result container: only rendered when have_results is True -->
+  {% if have_results %}
+  <div class="result-card">
+    <img src="{{ imgPath }}" alt="NASA image result">
+    <div class="description">{{ description }}</div>
+  </div>
+  {% else %}
+    <!-- Placeholder shown before searching -->
+    <div>
+      <p>Your image and description will appear here.</p>
+    </div>
+  {% endif %}
+</div>
+{% endblock %}
+

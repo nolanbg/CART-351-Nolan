@@ -1,0 +1,33 @@
+
+<!-- will be a child of base-->
+{% extends "base.html" %}
+{% block content %}
+<section>
+<div>
+<!-- GET request: the input's name ("search") is what request.args reads -->
+   <form class="search-form" action="{{ url_for('getSearchCriteria_adv') }}" method="GET">
+    <input type="text" name="search" placeholder="e.g. apollo 11, nebula, mars rover" required>
+    <button type="submit">Search</button>
+  </form>
+
+  {% if images %}
+    <p class="result-count">{{ images|length }} image{{ '' if images|length == 1 else 's' }} found</p>
+    <div class="gallery">
+      {% for img in images %}
+        <div class="tile">
+          <img src="{{ img }}" alt="NASA image {{ loop.index }}" loading="lazy">
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <!-- Placeholder: first visit (no images variable) or empty list -->
+    <div class="gallery-placeholder" aria-hidden="true">
+      {% for i in range(4) %}
+        <div class="ph-tile"></div>
+      {% endfor %}
+    </div>
+    <p class="ph-hint">Your images will appear here.</p>
+  {% endif %}
+</div>
+{% endblock %}
+
