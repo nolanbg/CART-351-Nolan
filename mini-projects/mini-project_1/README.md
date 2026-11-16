@@ -13,4 +13,5 @@ The basic setup was not too difficult, and I was quickly able to create slight v
 The texts we had to read made me think about misinformation and bots more than anything, and how much internet traffic is manufactured. We instinctively trust things like virality and location data and are manipulated by false patterns. Data is not neutral and it is carefully manicured to mislead people.
 
 The most challenging part of this project for me by far was incorporating the topoJSON file and drawing my map for the claims. I spent a lot of time on this alone and eventually had to use the dark arts to get me out of my rut. Overall, I like the result. It makes me chuckle. Some things I would add to a future iteration would be fake ad placements. 
+<br>
 <img width="499" height="236" alt="dailypanderer" src="https://github.com/user-attachments/assets/b0f113ec-f764-49e3-9a24-c748af3675bf" />
