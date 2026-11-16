@@ -1,4 +1,4 @@
-// Front end for The Amplifier.
+// Front end for The Daily Panderer
 
 let swarms = [];
 let revealed = false;
@@ -112,7 +112,7 @@ function drawNode(n) {
   noStroke();
   fill(col[0], col[1], col[2], 200);
   circle(n.x, n.y, isHumanRevealed ? n.r * 3 : n.r * 2);
-  // TODO: pulse or glow newly-arrived nodes (hint: millis() - n.visibleAt)
+  // TODO: pulse newly-arrived nodes 
 }
 
 function drawSpokes(swarm) {

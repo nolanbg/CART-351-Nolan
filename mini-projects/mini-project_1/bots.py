@@ -174,7 +174,6 @@ def make_handle(rng):
 
 def generate_swarm(text, n=40):
     # Seed from the text itself so the same sentence gives the same swarm.
-    # (Python's built-in hash() changes between runs, so use hashlib.)
     seed = int(hashlib.sha256(text.encode()).hexdigest(), 16)
     rng = random.Random(seed)
 
