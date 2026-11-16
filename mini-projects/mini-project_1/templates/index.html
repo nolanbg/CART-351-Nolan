@@ -2,10 +2,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-   
-     <h3>** Welcome  **</h3>
-    <section>
-        <!-- stuff goes in here -->
-         <p> This is the content for the index page</p>
-    </section>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&family=Merriweather&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+</head>
+<body class="theme-alarm">
+  <div id="breaking">
+    <span class="blink">● LIVE</span>
+    <span id="trend"></span>
+  </div>
+
+  <header id="masthead">
+    <h1>THE DAILY PANDERER</h1>
+    <p class="tagline">YOUR NEWS. YOUR OPINION. YOUR IMAGINATION</p>
+  </header>
+
+  <div id="ticker"><div class="ticker-track">
+    <span>EXPERTS "VERY CONCERNED" ///</span>
+    <span>THE MOON: WHAT ARE THEY HIDING? ///</span>
+    <span>BREAKING: IT'S OTHER POOR PEOPLE'S FAULT ///</span>
+    <span>LOCAL REACTIONARY "I'M OUTRAGED" ///</span>
+    <span>THE CHILDREN: SAVE THEM! NOW! ///</span>
+    <span>CORPORATE OVERLORD ACTUALLY AN EVERYMAN ///</span>
+  </div></div>
+
+  <div id="ui">
+    <input id="claim" maxlength="200" placeholder="Enter a claim. Any claim.">
+    <button id="send">AMPLIFY</button>
+    <button id="reveal">Source</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="canvas-holder"></div>
+  <div id="tooltip"></div>
+  <footer>Satire / art project. All "bot" accounts are fictional.</footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
 {% endblock %}

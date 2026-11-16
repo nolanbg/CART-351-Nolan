@@ -1,0 +1,18 @@
+{
+  "swarms": [
+    {
+      "id": "swarm_001",
+      "created_at": "2026-11-10T14:03:00",
+      "original": { "text": "Everyone except us is wrong", "handle": "user_you" },
+      "bots": [
+        {
+          "handle": "PatriotEagle4821",
+          "text": "We are always right! Wake up 🔥",
+          "voice": "outraged",
+          "mutations": ["caps", "exaggerate", "emoji"],
+          "delay_ms": 340
+        }
+      ]
+    }
+  ]
+}
