@@ -1,12 +1,13 @@
-<!-- will be a child of base-->
-{% extends "base.html" %}
 
-{% block content %}
+<!-- will be a child of base-->
+
+{% extends "base.html" %}
 <!DOCTYPE html>
+{% block content %}
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+  <link rel="stylesheet" href="../static/css/base.css">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&family=Merriweather&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
