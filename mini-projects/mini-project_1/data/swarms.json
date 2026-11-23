@@ -3,14 +3,1041 @@
     {
       "id": "swarm_001",
       "created_at": "2026-11-10T14:03:00",
-      "original": { "text": "Everyone except us is wrong", "handle": "user_you" },
+      "original": {
+        "text": "Everyone except us is wrong",
+        "handle": "user_you"
+      },
       "bots": [
         {
           "handle": "PatriotEagle4821",
           "text": "We are always right! Wake up 🔥",
           "voice": "outraged",
-          "mutations": ["caps", "exaggerate", "emoji"],
+          "mutations": [
+            "caps",
+            "exaggerate",
+            "emoji"
+          ],
           "delay_ms": 340
+        }
+      ]
+    },
+    {
+      "id": "swarm_002",
+      "created_at": "2026-11-17T18:08:06",
+      "original": {
+        "text": "fuck trump",
+        "handle": "user_you"
+      },
+      "bots": [
+        {
+          "handle": "SuperSmartPatriot5022",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "add_hashtag",
+            "swap_synonyms"
+          ],
+          "delay_ms": 417,
+          "lat": 28.5,
+          "lon": -96.73
+        },
+        {
+          "handle": "HonestCitizen8343",
+          "text": "BREAKING: fuck totally trump 🙏",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 1361,
+          "lat": 32.72,
+          "lon": -117.75
+        },
+        {
+          "handle": "AwakePatriot9551",
+          "text": "fuck trump",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "question_frame"
+          ],
+          "delay_ms": 389,
+          "lat": 27.63,
+          "lon": 76.21
+        },
+        {
+          "handle": "PatriotOwnPoopEater5401",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "swap_synonyms",
+            "add_hashtag",
+            "typo"
+          ],
+          "delay_ms": 399,
+          "lat": 37.57,
+          "lon": 128.46
+        },
+        {
+          "handle": "FreeEagle4670",
+          "text": "incredibly fuck trump 🔥😡",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 782,
+          "lat": 47.89,
+          "lon": 3.47
+        },
+        {
+          "handle": "DogmaticGuy1946",
+          "text": "fuck utterly trump",
+          "voice": "cheerful",
+          "mutations": [
+            "add_hashtag",
+            "exaggerate"
+          ],
+          "delay_ms": 271,
+          "lat": 28.14,
+          "lon": 77.01
+        },
+        {
+          "handle": "CuriousSkeptic8035",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "add_hashtag"
+          ],
+          "delay_ms": 712,
+          "lat": 17.88,
+          "lon": 72.26
+        },
+        {
+          "handle": "CuriousCitizen7856",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "swap_synonyms",
+            "add_hashtag"
+          ],
+          "delay_ms": 1359,
+          "lat": 41.0,
+          "lon": 12.31
+        },
+        {
+          "handle": "UnhingedConspiracy1242",
+          "text": "fuck completely trump 👀😡",
+          "voice": "cheerful",
+          "mutations": [
+            "add_hashtag",
+            "add_emoji",
+            "exaggerate"
+          ],
+          "delay_ms": 48,
+          "lat": 42.39,
+          "lon": -87.47
+        },
+        {
+          "handle": "OutragedThinker9203",
+          "text": "fuck literally trump 👀",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "exaggerate"
+          ],
+          "delay_ms": 14,
+          "lat": 24.59,
+          "lon": 89.89
+        },
+        {
+          "handle": "CuriousBigot7843",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "swap_synonyms",
+            "add_hashtag",
+            "typo"
+          ],
+          "delay_ms": 167,
+          "lat": 37.17,
+          "lon": 139.16
+        },
+        {
+          "handle": "DogmaticBigot1091",
+          "text": "fuck trump 👀",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "swap_synonyms",
+            "question_frame"
+          ],
+          "delay_ms": 453,
+          "lat": 6.15,
+          "lon": -74.92
+        },
+        {
+          "handle": "FreeOwnPoopEater2537",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "add_hashtag",
+            "swap_synonyms"
+          ],
+          "delay_ms": 311,
+          "lat": 5.23,
+          "lon": 3.7
+        },
+        {
+          "handle": "CuriousSkeptic1003",
+          "text": "fuck trump 🔥💯🔥",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "add_emoji",
+            "question_frame"
+          ],
+          "delay_ms": 491,
+          "lat": 41.42,
+          "lon": -86.51
+        },
+        {
+          "handle": "CuriousSheep2096",
+          "text": "fuck trump 👀🚨🔥",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "add_emoji",
+            "swap_synonyms"
+          ],
+          "delay_ms": 539,
+          "lat": 49.67,
+          "lon": 3.13
+        },
+        {
+          "handle": "UnhingedVoice4308",
+          "text": "fuck trump 🙏 incredibly",
+          "voice": "cheerful",
+          "mutations": [
+            "add_emoji",
+            "exaggerate"
+          ],
+          "delay_ms": 378,
+          "lat": 40.86,
+          "lon": -75.2
+        },
+        {
+          "handle": "FreeSkeptic3796",
+          "text": "BREAKING: fuck trump 🔥🔥🔥",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "add_emoji"
+          ],
+          "delay_ms": 476,
+          "lat": 6.44,
+          "lon": 2.85
+        },
+        {
+          "handle": "RealPatriot3346",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "swap_synonyms"
+          ],
+          "delay_ms": 20,
+          "lat": 52.76,
+          "lon": 14.37
+        },
+        {
+          "handle": "DogmaticCitizen6443",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "swap_synonyms"
+          ],
+          "delay_ms": 1098,
+          "lat": 29.87,
+          "lon": 30.03
+        },
+        {
+          "handle": "RealTruth3887",
+          "text": "BREAKING: fuck trump 💯👀",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "add_emoji"
+          ],
+          "delay_ms": 223,
+          "lat": 29.09,
+          "lon": -95.88
+        },
+        {
+          "handle": "UnhingedEagle2906",
+          "text": "BREAKING: FUCK TRUMP UTTERLY",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "caps",
+            "breaking_prefix"
+          ],
+          "delay_ms": 773,
+          "lat": -34.45,
+          "lon": 150.81
+        },
+        {
+          "handle": "OutragedCitizen1773",
+          "text": "fuck trump 🙏",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "question_frame",
+            "add_emoji"
+          ],
+          "delay_ms": 913,
+          "lat": 42.31,
+          "lon": -88.04
+        },
+        {
+          "handle": "RealWolf8981",
+          "text": "fuck trump 👀😡🙏",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "swap_synonyms",
+            "add_emoji"
+          ],
+          "delay_ms": 881,
+          "lat": 41.93,
+          "lon": -74.56
+        },
+        {
+          "handle": "DogmaticCitizen1385",
+          "text": "BREAKING: FUCK TRUMP 👀🙏",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "caps",
+            "add_emoji"
+          ],
+          "delay_ms": 1222,
+          "lat": 6.99,
+          "lon": 4.4
+        },
+        {
+          "handle": "AwakePatriot2379",
+          "text": "BREAKING: FUCK TRUMP ABSOLUTELY",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "breaking_prefix",
+            "caps"
+          ],
+          "delay_ms": 923,
+          "lat": 42.73,
+          "lon": -86.42
+        },
+        {
+          "handle": "HumbleWolf3089",
+          "text": "BREAKING: absolutely fuck trump",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "exaggerate"
+          ],
+          "delay_ms": 834,
+          "lat": 7.15,
+          "lon": 2.6
+        },
+        {
+          "handle": "OutragedEagle6868",
+          "text": "fuck trump",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "swap_synonyms"
+          ],
+          "delay_ms": 661,
+          "lat": 42.11,
+          "lon": -73.75
+        },
+        {
+          "handle": "HumbleSheep6686",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "swap_synonyms"
+          ],
+          "delay_ms": 230,
+          "lat": 36.07,
+          "lon": 138.96
+        },
+        {
+          "handle": "SuperSmartGuy2047",
+          "text": "fuck trump 💯😡",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "add_emoji"
+          ],
+          "delay_ms": 445,
+          "lat": 6.45,
+          "lon": 2.24
+        },
+        {
+          "handle": "CuriousSkeptic9187",
+          "text": "fuck trump incredibly 🙏",
+          "voice": "cheerful",
+          "mutations": [
+            "add_hashtag",
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 201,
+          "lat": -33.45,
+          "lon": 151.45
+        },
+        {
+          "handle": "ConcernedGuy2355",
+          "text": "BREAKING: fuck trump 🙏🚨",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "breaking_prefix"
+          ],
+          "delay_ms": 116,
+          "lat": -23.95,
+          "lon": -45.91
+        },
+        {
+          "handle": "OutragedWolf3149",
+          "text": "FUCK ABSOLUTELY TRUMP 💯🚨",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "add_emoji",
+            "caps"
+          ],
+          "delay_ms": 868,
+          "lat": 35.83,
+          "lon": 140.65
+        },
+        {
+          "handle": "PatriotEagle9051",
+          "text": "fuck trump 💯🔥",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "add_emoji",
+            "question_frame"
+          ],
+          "delay_ms": 443,
+          "lat": 23.04,
+          "lon": 90.99
+        },
+        {
+          "handle": "UnhingedWolf1297",
+          "text": "fuck trump",
+          "voice": "sloppy",
+          "mutations": [
+            "swap_synonyms",
+            "add_hashtag",
+            "typo"
+          ],
+          "delay_ms": 510,
+          "lat": -35.38,
+          "lon": -59.39
+        },
+        {
+          "handle": "CuriousSheep9774",
+          "text": "fuck trump 💯🙏🔥 utterly",
+          "voice": "cheerful",
+          "mutations": [
+            "add_emoji",
+            "add_hashtag",
+            "exaggerate"
+          ],
+          "delay_ms": 44,
+          "lat": 5.16,
+          "lon": 2.84
+        },
+        {
+          "handle": "CuriousConspiracy4677",
+          "text": "absolutely fuck trump 👀😡👀",
+          "voice": "cheerful",
+          "mutations": [
+            "add_emoji",
+            "exaggerate",
+            "add_hashtag"
+          ],
+          "delay_ms": 595,
+          "lat": 5.21,
+          "lon": -74.15
+        },
+        {
+          "handle": "RealOwnPoopEater6256",
+          "text": "fuck absolutely trump 😡👀",
+          "voice": "cheerful",
+          "mutations": [
+            "add_emoji",
+            "exaggerate"
+          ],
+          "delay_ms": 494,
+          "lat": 52.89,
+          "lon": 12.49
+        },
+        {
+          "handle": "UnhingedPatriot8443",
+          "text": "totally fuck trump",
+          "voice": "cheerful",
+          "mutations": [
+            "add_hashtag",
+            "exaggerate"
+          ],
+          "delay_ms": 1529,
+          "lat": 5.28,
+          "lon": 3.34
+        },
+        {
+          "handle": "OutragedGuy5351",
+          "text": "fuck incredibly trump 💯",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_hashtag",
+            "add_emoji"
+          ],
+          "delay_ms": 397,
+          "lat": 19.16,
+          "lon": 73.03
+        },
+        {
+          "handle": "FreePatriot2804",
+          "text": "fuck trump 🙏🙏",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "add_emoji"
+          ],
+          "delay_ms": 312,
+          "lat": 51.8,
+          "lon": 14.01
+        }
+      ]
+    },
+    {
+      "id": "swarm_003",
+      "created_at": "2026-11-17T18:09:21",
+      "original": {
+        "text": "Eating poop is good for you",
+        "handle": "user_you"
+      },
+      "bots": [
+        {
+          "handle": "SuperSmartEagle3532",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "swap_synonyms"
+          ],
+          "delay_ms": 28,
+          "lat": 7.2,
+          "lon": 4.27
+        },
+        {
+          "handle": "UnhingedPatriot7056",
+          "text": "Eating poop is perfect for you 🙏👀👀",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "add_emoji",
+            "swap_synonyms"
+          ],
+          "delay_ms": 25,
+          "lat": 3.75,
+          "lon": -72.99
+        },
+        {
+          "handle": "HumbleSheep7323",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "swap_synonyms"
+          ],
+          "delay_ms": 771,
+          "lat": -1.03,
+          "lon": 36.39
+        },
+        {
+          "handle": "PatriotSkeptic8450",
+          "text": "BREAKING: EATING POOP IS GOOD FOR YOU",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "caps"
+          ],
+          "delay_ms": 204,
+          "lat": 19.14,
+          "lon": 74.28
+        },
+        {
+          "handle": "UnhingedPatriot1737",
+          "text": "Eating poop is perfect for you 👀😡",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "question_frame",
+            "add_emoji"
+          ],
+          "delay_ms": 538,
+          "lat": 42.43,
+          "lon": 11.01
+        },
+        {
+          "handle": "CuriousGuy1705",
+          "text": "Eating poop is perfect for you 😡",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "swap_synonyms"
+          ],
+          "delay_ms": 861,
+          "lat": 48.15,
+          "lon": 1.34
+        },
+        {
+          "handle": "DogmaticWolf9525",
+          "text": "EATING LITERALLY POOP IS GOOD FOR YOU",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "caps"
+          ],
+          "delay_ms": 585,
+          "lat": 30.96,
+          "lon": -96.1
+        },
+        {
+          "handle": "SuperSmartTruth4318",
+          "text": "Eating poop is good literally for you 🔥",
+          "voice": "cheerful",
+          "mutations": [
+            "add_emoji",
+            "add_hashtag",
+            "exaggerate"
+          ],
+          "delay_ms": 254,
+          "lat": 33.58,
+          "lon": -119.53
+        },
+        {
+          "handle": "HumbleWolf7620",
+          "text": "Eating poop is good for you unbelievably 👀🚨🔥",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 126,
+          "lat": 47.57,
+          "lon": 2.95
+        },
+        {
+          "handle": "HonestWolf6847",
+          "text": "BREAKING: Eating poop is good for you 🙏",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "breaking_prefix"
+          ],
+          "delay_ms": 172,
+          "lat": 22.36,
+          "lon": 89.67
+        },
+        {
+          "handle": "CuriousMom8220",
+          "text": "Eating poop is perfect for you",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "swap_synonyms"
+          ],
+          "delay_ms": 2,
+          "lat": 32.72,
+          "lon": -119.21
+        },
+        {
+          "handle": "CuriousThinker2714",
+          "text": "BREAKING: Eating poop literally is good for you",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "breaking_prefix"
+          ],
+          "delay_ms": 194,
+          "lat": 37.7,
+          "lon": 127.41
+        },
+        {
+          "handle": "PatriotPatriot9961",
+          "text": "Eating poop is perfect for you 💯😡💯",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "question_frame",
+            "swap_synonyms"
+          ],
+          "delay_ms": 297,
+          "lat": 36.03,
+          "lon": 138.86
+        },
+        {
+          "handle": "HumbleSkeptic8233",
+          "text": "EATING LITERALLY POOP IS GOOD FOR YOU 💯🚨🙏",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "add_emoji",
+            "caps"
+          ],
+          "delay_ms": 884,
+          "lat": 3.68,
+          "lon": -75.49
+        },
+        {
+          "handle": "DogmaticSheep6531",
+          "text": "incredibly Eating poop is good for you",
+          "voice": "cheerful",
+          "mutations": [
+            "add_hashtag",
+            "exaggerate"
+          ],
+          "delay_ms": 393,
+          "lat": 50.21,
+          "lon": 0.33
+        },
+        {
+          "handle": "HumbleVoice2624",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "typo",
+            "swap_synonyms",
+            "add_hashtag"
+          ],
+          "delay_ms": 732,
+          "lat": 41.58,
+          "lon": 13.84
+        },
+        {
+          "handle": "HumbleConspiracy3313",
+          "text": "BREAKING: EATING literally POOP IS GOOD FOR YOU",
+          "voice": "outraged",
+          "mutations": [
+            "breaking_prefix",
+            "caps",
+            "exaggerate"
+          ],
+          "delay_ms": 1774,
+          "lat": 40.35,
+          "lon": -73.45
+        },
+        {
+          "handle": "UnhingedCitizen2518",
+          "text": "BREAKING: EATING POOP IS GOOD FOR YOU",
+          "voice": "outraged",
+          "mutations": [
+            "caps",
+            "breaking_prefix"
+          ],
+          "delay_ms": 83,
+          "lat": 19.5,
+          "lon": 73.0
+        },
+        {
+          "handle": "FreeGuy1498",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "typo",
+            "swap_synonyms"
+          ],
+          "delay_ms": 483,
+          "lat": -0.03,
+          "lon": 35.79
+        },
+        {
+          "handle": "FreeVoice4561",
+          "text": "Eating poop is good completely for you 👀🚨",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_emoji",
+            "add_hashtag"
+          ],
+          "delay_ms": 399,
+          "lat": 4.86,
+          "lon": -74.55
+        },
+        {
+          "handle": "UnhingedEagle8345",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "swap_synonyms",
+            "typo"
+          ],
+          "delay_ms": 284,
+          "lat": 5.34,
+          "lon": 2.5
+        },
+        {
+          "handle": "ConcernedSheep9736",
+          "text": "Eating poop is perfect for you 🙏💯😡",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "question_frame",
+            "add_emoji"
+          ],
+          "delay_ms": 404,
+          "lat": 51.42,
+          "lon": 13.27
+        },
+        {
+          "handle": "RealSkeptic4351",
+          "text": "EATING POOP IS GOOD FOR YOU 👀",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "caps"
+          ],
+          "delay_ms": 2392,
+          "lat": 49.11,
+          "lon": 3.12
+        },
+        {
+          "handle": "OutragedVoice5372",
+          "text": "EATING POOP IS GOOD FOR YOU 😡🙏😡",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "caps"
+          ],
+          "delay_ms": 183,
+          "lat": 6.01,
+          "lon": -73.98
+        },
+        {
+          "handle": "DogmaticLizardPerson5448",
+          "text": "EATING POOP IS GOOD positively FOR YOU 💯",
+          "voice": "outraged",
+          "mutations": [
+            "caps",
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 241,
+          "lat": -36.06,
+          "lon": -59.55
+        },
+        {
+          "handle": "CuriousBigot1149",
+          "text": "Eating poop is perfect for you 🚨",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "question_frame",
+            "swap_synonyms"
+          ],
+          "delay_ms": 1066,
+          "lat": 31.36,
+          "lon": 30.49
+        },
+        {
+          "handle": "CuriousConspiracy8855",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "typo",
+            "swap_synonyms"
+          ],
+          "delay_ms": 484,
+          "lat": 31.65,
+          "lon": 122.7
+        },
+        {
+          "handle": "ConcernedVoice9409",
+          "text": "BREAKING: EATING POOP IS ABSOLUTELY GOOD FOR YOU",
+          "voice": "outraged",
+          "mutations": [
+            "exaggerate",
+            "breaking_prefix",
+            "caps"
+          ],
+          "delay_ms": 46,
+          "lat": 39.07,
+          "lon": 125.81
+        },
+        {
+          "handle": "FuriousConspiracy5270",
+          "text": "Eating poop is good for you",
+          "voice": "sloppy",
+          "mutations": [
+            "add_hashtag",
+            "typo"
+          ],
+          "delay_ms": 618,
+          "lat": -35.69,
+          "lon": -57.86
+        },
+        {
+          "handle": "AwakeVoice3685",
+          "text": "BREAKING: Eating poop is good for you 🚨😡🚨",
+          "voice": "outraged",
+          "mutations": [
+            "add_emoji",
+            "breaking_prefix"
+          ],
+          "delay_ms": 910,
+          "lat": 40.24,
+          "lon": -74.41
+        },
+        {
+          "handle": "SuperSmartMom8272",
+          "text": "Eating poop is good for you 👀👀",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "question_frame"
+          ],
+          "delay_ms": 110,
+          "lat": 28.67,
+          "lon": 32.0
+        },
+        {
+          "handle": "RealLizardPerson1661",
+          "text": "Eating poop is perfect for you 👀👀",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "swap_synonyms"
+          ],
+          "delay_ms": 341,
+          "lat": 7.27,
+          "lon": 3.27
+        },
+        {
+          "handle": "OutragedThinker2795",
+          "text": "Eating poop is perfect for you",
+          "voice": "sloppy",
+          "mutations": [
+            "swap_synonyms",
+            "add_hashtag",
+            "typo"
+          ],
+          "delay_ms": 492,
+          "lat": -23.7,
+          "lon": -45.52
+        },
+        {
+          "handle": "UnhingedSheep5689",
+          "text": "Eating poop is good for you 😡",
+          "voice": "concerned",
+          "mutations": [
+            "add_emoji",
+            "question_frame"
+          ],
+          "delay_ms": 895,
+          "lat": 49.02,
+          "lon": 3.0
+        },
+        {
+          "handle": "ConcernedSheep7410",
+          "text": "Eating poop is good for literally you 👀🚨😡",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 695,
+          "lat": 37.97,
+          "lon": 126.74
+        },
+        {
+          "handle": "PatriotThinker9988",
+          "text": "100% Eating poop is good for you 🔥",
+          "voice": "cheerful",
+          "mutations": [
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 559,
+          "lat": 42.3,
+          "lon": -87.61
+        },
+        {
+          "handle": "AwakeGuy5500",
+          "text": "EATING POOP IS literally GOOD FOR YOU 👀🚨",
+          "voice": "outraged",
+          "mutations": [
+            "caps",
+            "exaggerate",
+            "add_emoji"
+          ],
+          "delay_ms": 26,
+          "lat": 51.01,
+          "lon": -0.8
+        },
+        {
+          "handle": "CuriousConspiracy9816",
+          "text": "BREAKING: EATING POOP IS GOOD FOR YOU 🙏👀🔥",
+          "voice": "outraged",
+          "mutations": [
+            "caps",
+            "breaking_prefix",
+            "add_emoji"
+          ],
+          "delay_ms": 824,
+          "lat": 34.99,
+          "lon": -118.65
+        },
+        {
+          "handle": "PatriotPatriot4923",
+          "text": "Eating poop is perfect for you 😡",
+          "voice": "concerned",
+          "mutations": [
+            "swap_synonyms",
+            "add_emoji",
+            "question_frame"
+          ],
+          "delay_ms": 151,
+          "lat": 29.01,
+          "lon": 31.07
+        },
+        {
+          "handle": "CuriousCitizen8795",
+          "text": "Eating poop is good for you 💯",
+          "voice": "concerned",
+          "mutations": [
+            "question_frame",
+            "add_emoji"
+          ],
+          "delay_ms": 1255,
+          "lat": 39.06,
+          "lon": 127.95
         }
       ]
     }
